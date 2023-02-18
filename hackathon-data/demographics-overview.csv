@@ -1,0 +1,716 @@
+# ----------------------------------------
+# Report CSV Export
+# Account: Faro Blanco Resort and Marina
+# Property: 12423 - Faro Blanco - Hotel - GA4
+# ----------------------------------------
+#  
+# Start date: 20220129
+# End date: 20230129
+Country ID,Users
+(not set),998
+AR,64
+AT,57
+AU,52
+AW,52
+BE,46
+BR,161
+CA,2089
+CH,151
+CN,73
+CO,81
+DE,840
+DK,107
+ES,188
+FI,72
+FR,386
+GB,1074
+ID,82
+IE,161
+IL,45
+IN,303
+IT,151
+KR,38
+MX,82
+NG,144
+NL,204
+NO,59
+PH,62
+PL,38
+PR,41
+SE,134
+US,96534
+
+# Start date: 20220129
+# End date: 20230129
+Country,Users
+United States,96534
+Canada,2089
+United Kingdom,1074
+Germany,840
+France,386
+India,303
+Netherlands,204
+Spain,188
+Brazil,161
+Ireland,161
+Italy,151
+Switzerland,151
+Nigeria,144
+Sweden,134
+Denmark,107
+Indonesia,82
+Mexico,82
+Colombia,81
+China,73
+Finland,72
+Argentina,64
+Philippines,62
+Norway,59
+Austria,57
+Aruba,52
+Australia,52
+Belgium,46
+Israel,45
+Puerto Rico,41
+Poland,38
+South Korea,38
+
+#  
+
+
+#  
+# Start date: 20220129
+# End date: 20230129
+Town/City,Users
+Atlanta,7598
+New York,7099
+Miami,4819
+Ashburn,2554
+Chicago,2424
+Tampa,2155
+Marathon,1894
+Orlando,1701
+Columbus,1457
+Dallas,787
+Philadelphia,760
+Fort Lauderdale,737
+Des Moines,698
+Quincy,589
+Jacksonville,588
+Boston,570
+Key West,491
+London,487
+Charlotte,447
+Hialeah,428
+Washington,427
+Toronto,423
+Cape Coral,417
+Raleigh,321
+Clinton,300
+Pompano Beach,299
+Miami Beach,288
+Avon Park,270
+Houston,267
+Minneapolis,264
+Boca Raton,260
+Nashville,260
+Port St. Lucie,260
+San Antonio,249
+Denver,239
+Louisville,239
+Hollywood,237
+St. Petersburg,223
+Tallahassee,223
+Phoenix,222
+Montreal,211
+Greenville,201
+Palm Beach Gardens,201
+Key Largo,200
+Coffeyville,199
+Kendall,187
+Davie,185
+Seattle,185
+Doral,184
+Ocala,184
+Indianapolis,183
+Dublin,178
+West Palm Beach,178
+Boynton Beach,175
+Milwaukee,165
+Lexington,164
+Bloomington,162
+Homestead,162
+Pembroke Pines,160
+Gainesville,157
+Englewood,155
+Richmond,155
+Cheyenne,154
+Austin,151
+Hampton,151
+Baltimore,150
+Forest City,150
+Paris,147
+Wellington,147
+New Orleans,146
+Tamiami,145
+Fort Myers,144
+Jupiter,144
+Cincinnati,142
+The Hammocks,142
+Cleveland,141
+Coral Springs,141
+North Naples,140
+Sanford,140
+Daytona Beach,139
+Delray Beach,138
+Petersburg,138
+Springfield,138
+Muhlhausen,135
+Salem,134
+Hamburg,133
+Bonita Springs,130
+Charleston,130
+Detroit,130
+Plymouth,126
+Big Pine Key,124
+Middletown,124
+Miami Gardens,123
+Naples,122
+Clearwater,121
+Franklin,121
+Palm Bay,121
+Plantation,121
+Cutler Bay,120
+Bloomsburg,118
+Brandon,118
+Fort Pierce,118
+Greenacres,118
+Lakeland,118
+Princeton,118
+Jasper,117
+Las Vegas,117
+Kansas City,115
+Madison,115
+Birmingham,114
+Coral Gables,114
+Frankfurt,114
+Trenton,111
+Sarasota,110
+Virginia Beach,110
+Lehigh Acres,109
+Athens,108
+Bangor,108
+Palatka,108
+Portland,108
+Bradenton,107
+Kings Point,107
+Canton,106
+Jacksonville Beach,106
+McConnelsville,106
+Danville,105
+Buffalo,104
+Waverly,104
+Decatur,103
+Deerfield Beach,103
+Onaway,102
+Palm Coast,102
+Fort Worth,98
+Pittsburgh,98
+Rochester,98
+Columbia,97
+Lancaster,97
+Palm City,97
+Marion,96
+North Port,95
+Johnson City,94
+Perry,94
+Spring Hill,94
+St. Louis,94
+Sunrise,94
+Berlin,93
+Lagos,93
+North Miami,93
+Mebane,92
+Miramar,92
+Jefferson,91
+Piscataway,89
+Columbia City,88
+Coshocton,87
+Isle of Palms,87
+Omaha,87
+Winter Haven,87
+Havana,86
+Homerville,86
+Rumford,86
+Hancock,85
+Lowell,85
+Melbourne,85
+Saratoga Springs,85
+Bluffton,84
+Flint,84
+Lincolnton,84
+Manning,84
+Romney,84
+Vancouver,84
+Bristol,83
+Hamilton,83
+Delhi,82
+Golden Gate,82
+Grand Rapids,82
+Morristown,82
+Weston,82
+Huntington,80
+Conyers,79
+Danbury,79
+Leesburg,79
+Marco Island,79
+Clewiston,78
+Troy,78
+Bridgeport,77
+Chesaning,77
+Keene,77
+Auburn,76
+Madisonville,76
+Rincon,76
+Seneca,76
+Keystone Heights,75
+Margate,75
+West Lafayette,75
+Estero,74
+Frankfort,74
+Islamorada,74
+Jackson,74
+Midland,74
+Pendleton,74
+Westerville,74
+Duffield,73
+Grand Ledge,73
+Kendall West,73
+Norwalk,73
+Stuart,73
+Front Royal,72
+Kendale Lakes,72
+Kilmarnock,72
+Oklahoma City,72
+Orangeburg,72
+Pennsville Township,72
+Reading,72
+Wilmington,72
+Ashland,71
+Blacksburg,71
+Chattanooga,71
+Covington,71
+Hendersonville,71
+Lafayette,71
+Richmond West,71
+Hobe Sound,70
+Fincastle,69
+Jefferson City,69
+La Grange,69
+Mesick,69
+Roscommon,69
+Calhoun,68
+Dahlgren,68
+Morehead City,68
+Newport,68
+Sumter,68
+Aventura,67
+Johnstown,67
+Palm Harbor,67
+Port Charlotte,67
+Sandalfoot Cove,67
+Slippery Rock,67
+Toms River,67
+Bogota,66
+Four Corners,66
+Lansing,66
+Lebanon,66
+Marysville,66
+Remington,66
+Canandaigua,65
+Ellijay,65
+Georgetown,65
+Largo,65
+Park Forest Village,65
+Three Rivers,65
+Americus,64
+Annapolis,64
+Erie,64
+Escanaba,64
+Mayodan,64
+Medford,64
+Pine Mountain,64
+Purcellville,64
+Savannah,64
+Roanoke,63
+Rocky Mount,63
+Tempe,63
+Burlington,62
+Tamarac,62
+Venice,62
+Amsterdam,61
+Aurora,61
+Bath,61
+Chambersburg,61
+Howard City,61
+Mobile,61
+Warsaw,61
+Buchanan,60
+Mount Airy,60
+Oak Hill,60
+Ottawa,60
+Wapakoneta,60
+Blackstone,59
+Cuthbert,59
+Florence,59
+Brookhaven,58
+Nanticoke,58
+Winchester,58
+Albany,57
+Cypress Lake,57
+Houghton,57
+Marietta,57
+Merritt Island,57
+Swanzey,57
+Syracuse,57
+York,57
+Helsinki,56
+Livingston,56
+Stanton,56
+Asheville,55
+Darien,55
+Davenport,55
+Dover,55
+Hartwell,55
+Rotonda West,55
+Scottsburg,55
+Vincennes,55
+West Valley City,55
+Arlington,54
+Dawson,54
+Gretna,54
+Lake City,54
+North Fort Myers,54
+The Villages,54
+Anderson,53
+Bowie,53
+Bryan,53
+Greensboro,53
+Lewisburg,53
+Milanville,53
+Oswego,53
+Sebastian,53
+Durham,52
+Manchester,52
+Mansfield,52
+Port Orange,52
+Trinity,52
+Wolcott,52
+Mount Vernon,51
+Mountain City,51
+San Carlos Park,51
+Sandusky,51
+Sebewaing,51
+Whitehall,51
+Winnipeg,51
+Alachua,50
+Apopka,50
+Carrollton,50
+Dover-Foxcroft,50
+Fort Wayne,50
+Fredericksburg,50
+Kissimmee,50
+Lake Worth,50
+Mount Pleasant,50
+Murphy,50
+Newark,50
+Rome,50
+Moses Lake,49
+New Haven,49
+North Miami Beach,49
+Owosso,49
+Piqua,49
+Powhatan,49
+Royal Palm Beach,49
+Villa Rica,49
+Wabash,49
+Wilson,49
+Canajoharie,48
+Knoxville,48
+Metter,48
+North Vernon,48
+Ruskin,48
+Springville,48
+Titusville,48
+Akron,47
+Brunswick,47
+Cambridge,47
+East Liverpool,47
+Hudson,47
+Orangetree,47
+Punta Gorda,47
+Batesville,46
+Bridgeville,46
+Clarksville,46
+Clifton,46
+Gallipolis,46
+Hawkinsville,46
+New Castle,46
+Park Ridge,46
+Shelbyville,46
+South Burlington,46
+St. Cloud,46
+Swansboro,46
+Wallace,46
+Atlantic City,45
+Beckley,45
+Copenhagen,45
+Morgantown,45
+Pinellas Park,45
+Reston,45
+Richmond Hill,45
+Suttons Bay,45
+Wesley Chapel,45
+Williamston,45
+Boydton,44
+Clarksburg,44
+Coconut Creek,44
+Douglas,44
+Hillsville,44
+Land O' Lakes,44
+Lincoln,44
+Milan,44
+Prineville,44
+Saint Paul,44
+Salt Lake City,44
+Altoona,43
+Clermont,43
+Concord,43
+Deltona,43
+Eatonton,43
+Hanover,43
+Lely Resort,43
+North Bergen,43
+Pentwater,43
+Satellite Beach,43
+Fontainebleau,42
+Hilton Head Island,42
+Ionia,42
+Sao Paulo,42
+Three Lakes,42
+University Park,42
+Warrenton,42
+Williamsburg,42
+Edmonton,41
+Hindman,41
+Lawton,41
+New London,41
+Norwich,41
+Oranjestad,41
+Ormond Beach,41
+Rock Hill,41
+Rockledge,41
+Wildwood,41
+Alexandria,40
+Carmel Hamlet,40
+Eaton Rapids,40
+Fremont,40
+Galion,40
+Hyden,40
+Marshall,40
+Pooler,40
+Port Salerno,40
+Providence,40
+Union Point,40
+Worcester,40
+Bedford,39
+Clinton Township,39
+Honolulu,39
+Long Beach,39
+Oviedo,39
+Riverview,39
+Sioux Falls,39
+St. Augustine,39
+Zurich,39
+Aberdeen,38
+Boardman,38
+Brighton,38
+Camden,38
+Exmore,38
+Gaylord,38
+Jensen Beach,38
+Monticello,38
+Torrington,38
+Turner,38
+Vero Beach,38
+Waynesboro,38
+Clayton,37
+DeLand,37
+Fitchburg,37
+Mancelona,37
+Monroe,37
+Paoli,37
+Radford,37
+South Venice,37
+Versailles,37
+Vienna,37
+Winter Park,37
+
+#  
+# Start date: 20220129
+# End date: 20230129
+Gender,Users
+male,5746
+female,5638
+
+#  
+# Start date: 20220129
+# End date: 20230129
+Interests,Users
+Banking & Finance/Avid Investors,7329
+Travel/Travel Buffs,7080
+Food & Dining/Cooking Enthusiasts/30 Minute Chefs,6745
+Lifestyles & Hobbies/Business Professionals,6605
+Shoppers/Value Shoppers,6593
+Beauty & Wellness/Frequently Visits Salons,6162
+News & Politics/Avid News Readers,6041
+Sports & Fitness/Health & Fitness Buffs,5402
+Shoppers/Bargain Hunters,5321
+Sports & Fitness/Sports Fans,5246
+Lifestyles & Hobbies/Pet Lovers,4825
+Lifestyles & Hobbies/Outdoor Enthusiasts,4770
+Shoppers/Shopping Enthusiasts,4505
+Lifestyles & Hobbies/Shutterbugs,4319
+Shoppers/Shoppers by Store Type/Department Store Shoppers,4243
+Media & Entertainment/TV Lovers,4218
+Lifestyles & Hobbies/Family-Focused,4211
+Travel/Business Travelers,4161
+Home & Garden/Do-It-Yourselfers,4138
+Vehicles & Transportation/Auto Enthusiasts,4125
+Technology/Technophiles,4029
+Food & Dining/Foodies,4008
+Media & Entertainment/Movie Lovers,3975
+Lifestyles & Hobbies/Fashionistas,3916
+Travel/Travel Buffs/Beachbound Travelers,3883
+News & Politics/Avid News Readers/Entertainment News Enthusiasts,3878
+Food & Dining/Frequently Dines Out/Diners by Meal/Frequently Eats Dinner Out,3790
+Food & Dining/Fast Food Cravers,3697
+Beauty & Wellness/Beauty Mavens,3603
+Shoppers/Luxury Shoppers,3490
+Home & Garden/Home Decor Enthusiasts,3293
+Lifestyles & Hobbies/Frequently Attends Live Events,3192
+Media & Entertainment/Book Lovers,3128
+Lifestyles & Hobbies/Art & Theater Aficionados,3091
+Media & Entertainment/Music Lovers,3075
+Lifestyles & Hobbies/Green Living Enthusiasts,2799
+News & Politics/Avid News Readers/Avid Political News Readers,2790
+Sports & Fitness/Sports Fans/Fans of American Football,2767
+Food & Dining/Cooking Enthusiasts/Aspiring Chefs,2585
+News & Politics/Avid News Readers/Avid Business News Readers,2528
+Travel/Travel Buffs/Luxury Travelers,2279
+Food & Dining/Coffee Shop Regulars,2185
+News & Politics/Avid News Readers/Avid Local News Readers,1987
+Technology/Mobile Enthusiasts,1937
+Food & Dining/Cooking Enthusiasts,1824
+Food & Dining/Frequently Dines Out/Diners by Meal/Frequently Eats Lunch Out,1685
+Lifestyles & Hobbies/Nightlife Enthusiasts,1548
+"Media & Entertainment/TV Lovers/Game, Reality & Talk Show Fans",1527
+Travel/Travel Buffs/Family Vacationers,1501
+Media & Entertainment/Comics & Animation Fans,1481
+Shoppers/Shoppers by Store Type/Convenience Store Shoppers,1424
+Sports & Fitness/Sports Fans/Basketball Fans,1204
+Sports & Fitness/Sports Fans/Baseball Fans,1078
+Food & Dining/Frequently Dines Out/Diners by Meal/Frequently Eats Breakfast Out,1074
+Media & Entertainment/TV Lovers/TV Drama Fans,1074
+Technology/Social Media Enthusiasts,1002
+Sports & Fitness/Sports Fans/Soccer Fans,978
+Lifestyles & Hobbies/Thrill Seekers,964
+Media & Entertainment/Light TV Viewers,955
+Media & Entertainment/Music Lovers/Pop Music Fans,937
+Lifestyles & Hobbies/Pet Lovers/Dog Lovers,926
+Vehicles & Transportation/Auto Enthusiasts/Performance & Luxury Vehicle Enthusiasts,907
+Vehicles & Transportation/Auto Enthusiasts/Truck & SUV Enthusiasts,869
+Sports & Fitness/Sports Fans/Boating & Sailing Enthusiasts,849
+Media & Entertainment/Gamers,834
+Media & Entertainment/Music Lovers/Rock Music Fans,787
+Media & Entertainment/TV Lovers/TV Comedy Fans,762
+Sports & Fitness/Sports Fans/Golf Enthusiasts,677
+Media & Entertainment/Movie Lovers/Action & Adventure Movie Fans,653
+Media & Entertainment/Movie Lovers/Sci-Fi & Fantasy Movie Fans,556
+Sports & Fitness/Sports Fans/Water Sports Enthusiasts,549
+Media & Entertainment/Music Lovers/Country Music Fans,545
+Media & Entertainment/Music Lovers/Rap & Hip Hop Fans,519
+Travel/Travel Buffs/Snowbound Travelers,495
+Sports & Fitness/Sports Fans/Motor Sports Enthusiasts,468
+Sports & Fitness/Sports Fans/Racquetball Enthusiasts,467
+Sports & Fitness/Sports Fans/Tennis Enthusiasts,437
+Sports & Fitness/Sports Fans/Hockey Fans,373
+Media & Entertainment/Movie Lovers/Romance & Drama Movie Fans,346
+Lifestyles & Hobbies/Pet Lovers/Cat Lovers,345
+Media & Entertainment/Movie Lovers/Comedy Movie Fans,341
+Vehicles & Transportation/Auto Enthusiasts/Motorcycle Enthusiasts,317
+Media & Entertainment/Movie Lovers/Family Movie Fans,315
+Media & Entertainment/Gamers/Hardcore Gamers,306
+Media & Entertainment/Music Lovers/Indie & Alternative Rock Fans,273
+Media & Entertainment/Gamers/Casual & Social Gamers,255
+Sports & Fitness/Sports Fans/Fight & Wrestling Fans,253
+Media & Entertainment/Music Lovers/World Music Fans,248
+Media & Entertainment/TV Lovers/Sci-Fi & Fantasy TV Fans,245
+Sports & Fitness/Sports Fans/Winter Sports Enthusiasts,209
+Media & Entertainment/Movie Lovers/Horror Movie Fans,192
+News & Politics/Avid News Readers/Women's Media Fans,175
+Media & Entertainment/Music Lovers/Metalheads,172
+Media & Entertainment/Music Lovers/Electronic Dance Music Fans,162
+Sports & Fitness/Sports Fans/Running Enthusiasts,154
+Sports & Fitness/Sports Fans/Cycling Enthusiasts,144
+Media & Entertainment/Gamers/Roleplaying Game Fans,140
+Sports & Fitness/Sports Fans/Skiing Enthusiasts,140
+Media & Entertainment/Gamers/Action Game Fans,119
+Media & Entertainment/Music Lovers/Fans of Latin Music,110
+Media & Entertainment/Gamers/Shooter Game Fans,92
+Shoppers/Shoppers by Store Type/Superstore Shoppers,86
+Media & Entertainment/Movie Lovers/Fans of South Asian Film,82
+Home & Garden,81
+Media & Entertainment/Music Lovers/Folk & Traditional Music Enthusiasts,80
+Media & Entertainment/Gamers/Adventure & Strategy Game Fans,79
+Media & Entertainment/TV Lovers/Family Television Fans,79
+Media & Entertainment/Music Lovers/Jazz Enthusiasts,72
+Sports & Fitness/Sports Fans/Swimming Enthusiasts,70
+Food & Dining/Frequently Dines Out/Diners by Meal,66
+Sports & Fitness/Sports Fans/Cricket Enthusiasts,65
+Media & Entertainment/Music Lovers/Classical Music Enthusiasts,58
+Media & Entertainment/Music Lovers/Blues Fans,50
+Shoppers/Shoppers by Store Type,50
+News & Politics/Avid News Readers/Men's Media Fans,46
+Media & Entertainment/TV Lovers/Documentary & Nonfiction TV Fans,43
+
+#  
+# Start date: 20220129
+# End date: 20230129
+Age,Users
+45-54,2577
+35-44,2550
+55-64,2327
+25-34,1611
+65+,1447
+18-24,901
+
+#  
+# Start date: 20220129
+# End date: 20230129
+Language,Users
+English,100284
+Spanish,1794
+German,924
+French,785
+Dutch,227
+Portuguese,162
+Italian,156
+Chinese,142
+Danish,124
+Swedish,86
+Norwegian Bokmål,61
+Russian,60
+Finnish,41
+Japanese,37
+Polish,37

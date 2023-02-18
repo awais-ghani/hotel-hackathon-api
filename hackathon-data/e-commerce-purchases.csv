@@ -1,0 +1,30 @@
+# ----------------------------------------
+# Report CSV Export
+# Account: Faro Blanco Resort and Marina
+# Property: 12423 - Faro Blanco - Hotel - GA4
+# ----------------------------------------
+# 
+# Start date: 20230102
+# End date: 20230129
+Nth day
+
+
+# Start date: 20230102
+# End date: 20230129
+Item name,Items viewed,Items added to cart
+Accessible 2 Queen beds Sleeper Sofa,0,84
+Accessible King Bed with Sleeper Sofa,0,174
+Lighthouse Tower Suite,0,409
+Superior 2 Queen with Sleeper Sofa,0,2875
+Superior King with Sleeper Sofa,0,3079
+
+# All Users
+# Start date: 20230102
+# End date: 20230129
+
+Item name,Items viewed,Items added to cart,Items purchased,Item revenue
+Accessible 2 Queen beds Sleeper Sofa,0,84,0,0
+Accessible King Bed with Sleeper Sofa,0,174,7,2424.949999
+Lighthouse Tower Suite,0,409,23,11720.95
+Superior 2 Queen with Sleeper Sofa,0,2875,190,56975.97998
+Superior King with Sleeper Sofa,0,3079,174,56165.554983

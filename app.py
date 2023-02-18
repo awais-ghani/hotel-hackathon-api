@@ -163,6 +163,20 @@ def register():
     return render_template("register.html")
 
 
+import csv 
+cwd = os.getcwd()
+
+engagement_conversions = open(cwd + '\hackathon-data\engagement-conversions.csv')
+engagement_conversions_csv = csv.reader(engagement_conversions)
+
+engagement_events = open(cwd + '\hackathon-data\engagement-events.csv')
+engagement_events_csv = csv.reader(engagement_events)
+
+
+rows=[]
+for row in engagement_conversions_csv:
+    rows.append(row)
+
 
 
 def errorhandler(e):
