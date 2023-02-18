@@ -9,6 +9,10 @@ from werkzeug.security import check_password_hash, generate_password_hash
 
 from helpers import apology, login_required, lookup, usd
 
+# Import graph 
+import matplotlib.pyplot as plt
+import numpy as np
+
 # Configure application
 app = Flask(__name__)
 
@@ -66,7 +70,7 @@ def index():
     rows = db.execute("SELECT cash FROM users WHERE id=:user_id", user_id=session["user_id"])
     cash = rows[0]["cash"]
     grand_total += cash
-    return render_template("index.html",holdings=holdings,cash=usd(cash),grand_total = usd(grand_total), percent=conversion_rate_viewToPurchase_percent)
+    return render_template("index.html", percent=conversion_rate_viewToPurchase_percent)
 
 
 
@@ -172,6 +176,9 @@ engagement_conversions_csv = csv.reader(engagement_conversions)
 engagement_events = open(cwd + '/hackathon-data/engagement-events.csv')
 engagement_events_csv = csv.reader(engagement_events)
 
+demographics_overview = open(cwd + '/hackathon-data/demographics-overview.csv')
+demographics_overview_csv = csv.reader(demographics_overview)
+
 
 engagement_events_rows=[]
 for row in engagement_events_csv:
@@ -180,16 +187,46 @@ for row in engagement_events_csv:
 engagement_events_rows_pages=[]
 for row in engagement_events_rows:
     engagement_events_rows_pages.append(row)
+
+demographics_overview_rows=[]
+for row in demographics_overview_csv:
+    demographics_overview_rows.append(row)
         
 # Calculate the rate of conversion between page view and purchase
 page_views_quantity = float(engagement_events_rows_pages[381][1])
 purchase_quantity = float(engagement_events_rows_pages[395][1])
-
-print(page_views_quantity)
-print(purchase_quantity)
-
 conversion_rate_viewToPurchase_percent = (purchase_quantity / page_views_quantity) * 100
 
+# Calculate the users per language 
+languages = demographics_overview_rows[701:]
+
+language = []
+speakers = []
+for row in languages:
+    language.append(row[0])
+    speakers.append(float(row[1]))
+
+# Add up non English and spanish users
+nonEnglish = speakers.copy()
+
+nonEnglish.pop(0)
+
+nonEnglish.pop(0)
+
+nonEnglishSpeakers = np.sum(nonEnglish)
+
+languageCondensed = ['English', 'Spanish', 'Other 13 Languages']
+speakersCondensed = [speakers[0], speakers[1], nonEnglishSpeakers]
+
+
+fig = plt.figure()
+ax = fig.add_axes([0,0,1,1])
+ax.bar(languageCondensed,speakersCondensed, color=['green', 'yellow', 'red'])
+plt.xlabel("Number of Users")
+plt.ylabel("Language Spoken")
+plt.savefig("./static/languages.png", bbox_inches='tight')
+
+plt.close()
 
 def errorhandler(e):
     """Handle error"""
