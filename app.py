@@ -166,17 +166,29 @@ def register():
 import csv 
 cwd = os.getcwd()
 
-engagement_conversions = open(cwd + '\hackathon-data\engagement-conversions.csv')
+engagement_conversions = open(cwd + '/hackathon-data/engagement-conversions.csv')
 engagement_conversions_csv = csv.reader(engagement_conversions)
 
-engagement_events = open(cwd + '\hackathon-data\engagement-events.csv')
+engagement_events = open(cwd + '/hackathon-data/engagement-events.csv')
 engagement_events_csv = csv.reader(engagement_events)
 
 
-rows=[]
-for row in engagement_conversions_csv:
-    rows.append(row)
+engagement_events_rows=[]
+for row in engagement_events_csv:
+    engagement_events_rows.append(row)
 
+engagement_events_rows_pages=[]
+for row in engagement_events_rows:
+    engagement_events_rows_pages.append(row)
+        
+# Calculate the rate of conversion between page view and purchase
+page_views_quantity = float(engagement_events_rows_pages[381][1])
+purchase_quantity = float(engagement_events_rows_pages[395][1])
+
+print(page_views_quantity)
+print(purchase_quantity)
+
+conversion_rate_viewToPurchase_percent = (purchase_quantity / page_views_quantity) * 100
 
 
 def errorhandler(e):
