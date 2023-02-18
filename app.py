@@ -66,7 +66,7 @@ def index():
     rows = db.execute("SELECT cash FROM users WHERE id=:user_id", user_id=session["user_id"])
     cash = rows[0]["cash"]
     grand_total += cash
-    return render_template("index.html",holdings=holdings,cash=usd(cash),grand_total = usd(grand_total))
+    return render_template("index.html",holdings=holdings,cash=usd(cash),grand_total = usd(grand_total), percent=conversion_rate_viewToPurchase_percent)
 
 
 
