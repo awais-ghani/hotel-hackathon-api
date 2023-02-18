@@ -1,0 +1,52 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    index
+{% endblock %}
+
+{% block main %}
+
+    <main class="container p-5">
+        <table class= "table table-striped">
+            <thead>
+                <tr>
+                    <!-- header goes here  -->
+
+                </tr>
+            </thead>
+            <tbody>
+                {% for holding in holdings %}
+                <tr>
+                    <td>{{holding["symbol"]}}</td>
+                    <td>{{holding["name"]}}</td>
+                    <td>{{holding["shares"]}}</td>
+                    <td>{{holding["price"]}}</td>
+                    <td>{{holding["total"]}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4" ></td>
+                    
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td style="text-align:center" colspan="4">Welcom Admin</td>
+                    
+                   <!-- <td>{{cash}}</td>  -->
+                    
+                </tr>
+                <tr>
+                    <td style="text-align:center" colspan="4">Data Shows here</td>
+                    
+                   <!-- <td>{{cash}}</td>  -->
+                    
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+
+{% endblock %}
