@@ -166,15 +166,59 @@ def register():
 
     return render_template("register.html")
 
+"Working on the data:"
 
 import csv 
 cwd = os.getcwd()
 
+
+#allowing python to read the files I need
+e_commerce_purchases = open(cwd + '\hackathon-data\e-commerce-purchases.csv')
+e_commerce_purchases_csv = csv.reader(e_commerce_purchases)
+engagement_events = open(cwd + '\hackathon-data\engagement-events.csv')
+engagement_events_csv = csv.reader(engagement_events)
+engagement_overview = open(cwd + '\hackathon-data\engagement-overview.csv')
+engagement_overview_csv = csv.reader(engagement_overview)
+
+#create the spreadsheet data for each file as an array of the rows
+engagement_events_data=[] 
+for row in engagement_events_csv:
+    engagement_events_data.append(row)
+engagement_overview_data=[] 
+for row in engagement_overview_csv:
+    engagement_overview_data.append(row)
+e_commerce_purchases_data=[] 
+for row in e_commerce_purchases_csv:
+    e_commerce_purchases_data.append(row)
+
+"finding number of engaged users, returns a decimal (which is essentially a %)"
+def total_engaged_users():
+    #finding total users visiting website in 1yr
+    total_users = engagement_events_data[405][2]
+    avg_user_engagement = 0
+    for week_number in range(34):  
+        #finding avg. engaged session per user (ie. user engagement)
+        user_engagement = float(engagement_overview_data[47+week_number][1])
+        avg_user_engagement += user_engagement/33
+
+    #so number of actual engaged users is these 2 multiplied
+    return float(total_users)*float(avg_user_engagement)
+
+
+"finding room conversion rates ie. numnber of people who add 1 of the 5 rooms to the cart AND purchase it. Returns an array containing 5 decimal values"
+def room_conversion_rates():
+    room_conversion_rate = []
+
+    for room_type in range(5):
+        room_addedtocart = e_commerce_purchases_data[25+room_type][2]
+        room_purchased = e_commerce_purchases_data[25+room_type][3]
+        #divide no. purchased by no. added to cart to see how many are actually purchased per room added to cart
+        room_conversion_rate.append( float(room_purchased)/float(room_addedtocart))
+
+    return room_conversion_rate
+
 engagement_conversions = open(cwd + '/hackathon-data/engagement-conversions.csv')
 engagement_conversions_csv = csv.reader(engagement_conversions)
-
-engagement_events = open(cwd + '/hackathon-data/engagement-events.csv')
-engagement_events_csv = csv.reader(engagement_events)
 
 demographics_overview = open(cwd + '/hackathon-data/demographics-overview.csv')
 demographics_overview_csv = csv.reader(demographics_overview)
