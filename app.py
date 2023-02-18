@@ -66,7 +66,7 @@ def index():
     rows = db.execute("SELECT cash FROM users WHERE id=:user_id", user_id=session["user_id"])
     cash = rows[0]["cash"]
     grand_total += cash
-    return render_template("index.html",holdings=holdings,cash=usd(cash),grand_total = usd(grand_total))
+    return render_template("index.html",holdings=holdings,cash=usd(cash),grand_total = usd(grand_total), percent=conversion_rate_viewToPurchase_percent)
 
 
 
@@ -167,6 +167,7 @@ def register():
 import csv 
 cwd = os.getcwd()
 
+
 #allowing python to read the files I need
 e_commerce_purchases = open(cwd + '\hackathon-data\e-commerce-purchases.csv')
 e_commerce_purchases_csv = csv.reader(e_commerce_purchases)
@@ -212,6 +213,26 @@ def room_conversion_rates():
 
     return room_conversion_rate
 
+engagement_conversions = open(cwd + '/hackathon-data/engagement-conversions.csv')
+engagement_conversions_csv = csv.reader(engagement_conversions)
+
+
+engagement_events_rows=[]
+for row in engagement_events_csv:
+    engagement_events_rows.append(row)
+
+engagement_events_rows_pages=[]
+for row in engagement_events_rows:
+    engagement_events_rows_pages.append(row)
+        
+# Calculate the rate of conversion between page view and purchase
+page_views_quantity = float(engagement_events_rows_pages[381][1])
+purchase_quantity = float(engagement_events_rows_pages[395][1])
+
+print(page_views_quantity)
+print(purchase_quantity)
+
+conversion_rate_viewToPurchase_percent = (purchase_quantity / page_views_quantity) * 100
 
 
 def errorhandler(e):
