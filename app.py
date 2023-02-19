@@ -220,6 +220,19 @@ def room_conversion_rates():
 engagement_conversions = open(cwd + '/hackathon-data/engagement-conversions.csv')
 engagement_conversions_csv = csv.reader(engagement_conversions)
 
+#conversion RATE ie. conversions per user for engagement events
+engagement_conversions_data=[] 
+for row in engagement_conversions_csv:
+    engagement_conversions_data.append(row)
+
+conversion_count, user_count, conversion_rate = [], [], []
+for type in range(4):
+    conversion_count.append(float(engagement_conversions_data[391 + type][1]))
+    user_count.append(float(engagement_conversions_data[391 + type][2]))
+    value = conversion_count[type] / user_count[type]
+    conversion_rate.append(value)
+
+
 demographics_overview = open(cwd + '/hackathon-data/demographics-overview.csv')
 demographics_overview_csv = csv.reader(demographics_overview)
 
