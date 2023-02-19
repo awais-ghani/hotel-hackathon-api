@@ -224,21 +224,14 @@ demographics_overview = open(cwd + '/hackathon-data/demographics-overview.csv')
 demographics_overview_csv = csv.reader(demographics_overview)
 
 
-engagement_events_rows=[]
-for row in engagement_events_csv:
-    engagement_events_rows.append(row)
-
-engagement_events_rows_pages=[]
-for row in engagement_events_rows:
-    engagement_events_rows_pages.append(row)
 
 demographics_overview_rows=[]
 for row in demographics_overview_csv:
     demographics_overview_rows.append(row)
         
 # Calculate the rate of conversion between page view and purchase
-page_views_quantity = float(engagement_events_rows_pages[381][1])
-purchase_quantity = float(engagement_events_rows_pages[395][1])
+page_views_quantity = float(engagement_events_data[246][1])
+purchase_quantity = float(engagement_events_data[260][1])
 conversion_rate_viewToPurchase_percent = (purchase_quantity / page_views_quantity) * 100
 
 # Calculate the users per language 
