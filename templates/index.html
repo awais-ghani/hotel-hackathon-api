@@ -5,25 +5,142 @@
 {% endblock %}
 
 {% block main %}
+<main class="container p-5">
 
-    <main class="container p-5">
+<div class="container p-5">
+<h1 style="color: #ea433b;">Welcome Admin</h1>
+<h2>Analytics</h2>
+<div>
 
-        <!-- H1 TO WELCOME ADMIN -->
+    
 
-        <!-- Key stats table -->
         <table class= "table table-striped">
             <thead>
                 Key Stats
             </thead>
             <tbody>
                 <tr>
-                    <td style="text-align:center" colspan="4">CONVERSION RATE</td>
+                    <td style="text-align:center" colspan="4">Room conversion rate</td>
                     <td>{{percent}}</td>                    
                 </tr>
             </tbody>
         </table>
+</div>
+
+<div>
+<img src="https://miro.medium.com/max/1286/1*49MIsvv2T6HtTBJqsLClNQ.png" width="500px"/>
+</div>
+
+<div>
+    <table class= "table table-striped">
+        <thead>
+            Key Stats
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align:center" colspan="4">Geographical data</td>
+                <td>{{percent}}</td>                    
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div>
+    <table class= "table table-striped">
+        <thead>
+            Metrics for categories
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align:center" colspan="4">Number purchesed</td>
+                <td>{{percent}}</td>                    
+            </tr>
+        </tbody>
+    </table>   
+</div>
+<div>
+    <img src="https://www.hospitalitynet.org/picture/xxl_153137890.jpg?t=1645435508" width="500px"/>
+</div>
+
+
+<div>
+    <table class= "table table-striped">
+        <thead>
+            Events
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align:center" colspan="4">Value | Intent</td>
+                <td>Low</td> 
+                <td>Medium</td>  
+                <td>High</td>              
+            </tr>
+        </tbody>
+         </table>
+</div>
+<div>
+        <table class= "table table-striped">
+            <thead>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Low</td>
+                <td>Use Caution</td>
+                <td>Where Funds Allow</td>
+                <td>Boost Spending</td>
+            </tr>
+            </tbody>
+        </table>
+</div>
+<div>
+        <table class= "table table-striped">
+            <thead>
+            </thead>
+            <tbody>
+            <tr>
+                <td>High</td>
+                <td>Worth Spending</td>
+                <td>Boost Spending</td>
+                <td>Ideal Web Visor</td>
+            </tr>
+            </tbody>
+        </table>    
+</div>
+<br><br><br>
+<table class="graph">
+	<caption>Rooms generating most revinue</caption>
+	<thead>
+		<tr>
+			<th scope="col">Item</th>
+			<th scope="col">Percent</th>
+		</tr>
+	</thead><tbody>
+		<tr style="height:0%">
+			<th scope="row">Accessible 2 Queen beds Sleeper Sofa</th>
+			<td><span>£0</span></td>
+		</tr>
+		<tr style="height:4%">
+			<th scope="row">Accessible King Bed with Sleeper Sofa</th>
+			<td><span>£2424</span></td>
+		</tr>
+		<tr style="height:20%">
+			<th scope="row">Lighthouse Tower Suite</th>
+			<td><span>£11720</span></td>
+		</tr>
+		<tr style="height:100%">
+			<th scope="row">Superior 2 Queen with Sleeper Sofa</th>
+			<td><span>£56975</span></td>
+		</tr>
+		<tr style="height:98%">
+			<th scope="row">Superior King with Sleeper Sofa</th>
+			<td><span>£56165</span></td>
+		</tr>
+	</tbody>
+</table>
 
         <!-- CREATE DIV TO STORE EVENTS PER CLICK -->
+        <img src="/static/languages.png" class="graph-image"/>
+        <div > Image </div>
+
     </main>
 
 
