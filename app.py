@@ -173,11 +173,11 @@ cwd = os.getcwd()
 
 
 #allowing python to read the files I need
-e_commerce_purchases = open(cwd + '\hackathon-data\e-commerce-purchases.csv')
+e_commerce_purchases = open(cwd + '/hackathon-data/e-commerce-purchases.csv')
 e_commerce_purchases_csv = csv.reader(e_commerce_purchases)
-engagement_events = open(cwd + '\hackathon-data\engagement-events.csv')
+engagement_events = open(cwd + '/hackathon-data/engagement-events.csv')
 engagement_events_csv = csv.reader(engagement_events)
-engagement_overview = open(cwd + '\hackathon-data\engagement-overview.csv')
+engagement_overview = open(cwd + '/hackathon-data/engagement-overview.csv')
 engagement_overview_csv = csv.reader(engagement_overview)
 
 #create the spreadsheet data for each file as an array of the rows
@@ -220,6 +220,19 @@ def room_conversion_rates():
 engagement_conversions = open(cwd + '/hackathon-data/engagement-conversions.csv')
 engagement_conversions_csv = csv.reader(engagement_conversions)
 
+#conversion RATE ie. conversions per user for engagement events
+engagement_conversions_data=[] 
+for row in engagement_conversions_csv:
+    engagement_conversions_data.append(row)
+
+conversion_count, user_count, conversion_rate = [], [], []
+for type in range(4):
+    conversion_count.append(float(engagement_conversions_data[391 + type][1]))
+    user_count.append(float(engagement_conversions_data[391 + type][2]))
+    value = conversion_count[type] / user_count[type]
+    conversion_rate.append(value)
+
+
 demographics_overview = open(cwd + '/hackathon-data/demographics-overview.csv')
 demographics_overview_csv = csv.reader(demographics_overview)
 
@@ -228,11 +241,15 @@ demographics_overview_csv = csv.reader(demographics_overview)
 demographics_overview_rows=[]
 for row in demographics_overview_csv:
     demographics_overview_rows.append(row)
-        
+
+
 # Calculate the rate of conversion between page view and purchase
 page_views_quantity = float(engagement_events_data[246][1])
 purchase_quantity = float(engagement_events_data[260][1])
 conversion_rate_viewToPurchase_percent = (purchase_quantity / page_views_quantity) * 100
+
+print(page_views_quantity)
+print(purchase_quantity)
 
 # Calculate the users per language 
 languages = demographics_overview_rows[701:]

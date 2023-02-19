@@ -10,88 +10,53 @@
 <div class="container p-5">
 <h1 style="color: #ea433b;">Welcome Admin</h1>
 <h2>Analytics</h2>
-<div>
 
-    
 
-        <table class= "table table-striped">
-            <thead>
-                Key Stats
-            </thead>
-            <tbody>
-                <tr>
-                    <td style="text-align:center" colspan="4">Room conversion rate</td>
-                    <td>{{percent}}</td>                    
-                </tr>
-            </tbody>
-        </table>
-</div>
 
 <div>
-<img src="https://miro.medium.com/max/1286/1*49MIsvv2T6HtTBJqsLClNQ.png" width="500px"/>
-</div>
-
-<div>
+    <h3>Ideal Target Customer</h3>
     <table class= "table table-striped">
-        <thead>
-            Key Stats
-        </thead>
         <tbody>
             <tr>
-                <td style="text-align:center" colspan="4">Geographical data</td>
-                <td>{{percent}}</td>                    
-            </tr>
-        </tbody>
-    </table>
-</div>
-<div>
-    <table class= "table table-striped">
-        <thead>
-            Metrics for categories
-        </thead>
-        <tbody>
-            <tr>
-                <td style="text-align:center" colspan="4">Number purchesed</td>
-                <td>{{percent}}</td>                    
-            </tr>
-        </tbody>
-    </table>   
-</div>
-<div>
-    <img src="https://www.hospitalitynet.org/picture/xxl_153137890.jpg?t=1645435508" width="500px"/>
-</div>
-
-
-<div>
-    <table class= "table table-striped">
-        <thead>
-            Events
-        </thead>
-        <tbody>
-            <tr>
-                <td style="text-align:center" colspan="4">Value | Intent</td>
+                <td >&#8595; Value | Intent &#8594;</td>
                 <td>Low</td> 
                 <td>Medium</td>  
                 <td>High</td>              
             </tr>
         </tbody>
          </table>
-</div>
-<div>
+
+
+
         <table class= "table table-striped">
             <thead>
             </thead>
             <tbody>
             <tr>
                 <td>Low</td>
+                <td>Waste of Budget</td>
+                <td>Use Caution</td>
+                <td>Worth Spending</td>
+            </tr>
+            </tbody>
+        </table>
+
+
+        <table class= "table table-striped">
+            <thead>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Medium</td>
                 <td>Use Caution</td>
                 <td>Where Funds Allow</td>
                 <td>Boost Spending</td>
             </tr>
             </tbody>
         </table>
-</div>
-<div>
+
+
+<di class="table-margin">
         <table class= "table table-striped">
             <thead>
             </thead>
@@ -105,9 +70,12 @@
             </tbody>
         </table>    
 </div>
-<br><br><br>
+
+
+<div class="graph-table">
 <table class="graph">
-	<caption>Rooms generating most revinue</caption>
+	<caption><h4>Rooms generating most revenue compared to <br>  Superior 2 Queen with Sleeper Sofa </h4></caption>
+
 	<thead>
 		<tr>
 			<th scope="col">Item</th>
@@ -136,10 +104,44 @@
 		</tr>
 	</tbody>
 </table>
+</div>
 
-        <!-- CREATE DIV TO STORE EVENTS PER CLICK -->
-        <img src="/static/languages.png" class="graph-image"/>
-        <div > Image </div>
+
+<div class="graph-table">
+<table class="graph-room">
+	<caption><h4> Rate of conversions per user for each revenue stream </h4></caption>
+	<thead>
+		<tr>
+			<th scope="col">Stream</th>
+			<th scope="col">Rate</th>
+		</tr>
+	</thead><tbody>
+		<tr style="height:77%">
+			<th scope="row">Booking Engine Entrances</th>
+			<td><span>1.51</span></td>
+		</tr>
+		<tr style="height:70%">
+			<th scope="row">Food Beverage</th>
+			<td><span>1.4</span></td>
+		</tr>
+		<tr style="height:56%">
+			<th scope="row">Purchase</th>
+			<td><span>1.13</span></td>
+		</tr>
+		<tr style="height:53%">
+			<th scope="row">Meetings</th>
+			<td><span>1.07</span></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+
+<div>
+<!-- CREATE DIV TO STORE EVENTS PER CLICK -->
+<h3>Most popular language spoken by users </h3>
+<img src="/static/languages.png" class="graph-image"/>
+</div>
 
     </main>
 
