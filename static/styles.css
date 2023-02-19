@@ -45,6 +45,7 @@ main img
     /* Constrain images on small screens */
     max-width: 100%;
 }
+
 div {margin-bottom: 30px;}
 body, table, input, select, textarea
 
@@ -194,3 +195,9 @@ body, table, input, select, textarea
 	} /* min-width:32em */
 
 } /* grid only */
+
+
+.graph-image{
+    width : 500px;
+}
+
